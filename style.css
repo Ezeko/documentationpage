@@ -1,4 +1,4 @@
-body{
+#body{
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: repeat(2, 1fr);
@@ -7,4 +7,16 @@ body{
     "main main"
     "footer footer";
     min-height: 1000px;
+}
+#header{
+    background-color: black;
+    width: 100%;
+}
+#main{
+    background-color: lightgrey;
+    width: 100%;
+}
+#footer{
+    background-color: grey;
+    width:100%;
 }
