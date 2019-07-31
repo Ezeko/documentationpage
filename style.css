@@ -1,0 +1,10 @@
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+    min-height: 1000px;
+}
