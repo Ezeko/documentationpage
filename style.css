@@ -13,7 +13,7 @@
     background-color: black;
     width: 100%;
 }
-#main{
+#main-doc{
     grid-area: main;
     background-color: lightgrey;
     width: 100%;
