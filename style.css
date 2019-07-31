@@ -1,4 +1,4 @@
-#body{
+.container{
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: repeat(2, 1fr);
@@ -9,14 +9,17 @@
     min-height: 1000px;
 }
 #header{
+    grid-area: header;
     background-color: black;
     width: 100%;
 }
 #main{
+    grid-area: main;
     background-color: lightgrey;
     width: 100%;
 }
 #footer{
+    grid-area: footer;
     background-color: grey;
     width:100%;
 }
