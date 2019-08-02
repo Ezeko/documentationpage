@@ -8,11 +8,31 @@
     "footer footer";
     min-height: 1000px;
 }
+@media (min-width:1200px){
+    #header{
+        width: 98.8%;
+        scroll-padding: 10px;
+    }
+    .main-section{
+        padding-top: 5%;
+    }
+}
+@media (max-width:600px){
+    #header{
+        width: 97%;
+        scroll-padding: 10px;
+    }
+    .main-section{
+        padding-top: 10%;
+    }
+}
 #header{
     grid-area: header;
     background-color: black;
     color: aliceblue;
-    width: 100%;
+    position: fixed;
+    top: 0;
+    transform: relative;
     height: 60px;
     align-items: center;
 }
