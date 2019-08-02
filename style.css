@@ -50,10 +50,19 @@ text-align: center;
     background-color: grey;
     width:100%;
     
-    
 }
-#all{
+@media (max-width:600px){
+    all{
+        font-size: normal;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media (min-width:1200px){
+    #all{
     font-size: 25px;
     text-align: center;
     align-items: center;
+    }
 }
